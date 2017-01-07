@@ -17,8 +17,8 @@ Successor to [bootstrap-sass-loader](https://github.com/shakacode/bootstrap-sass
 1. Community support to help us with Bootstrap 4 issues and pull requests.
 2. We'd be thrilled to have another maintainer join us to help with Bootstrap 4 issues.
 3. We'd also be thrilled if any companies are open to sponsoring the development of features and issues regarding Bootstrap 4.
- 
-That being said, Bootstrap 4 probably works just fine! You must use `4.0.0-alpha.4` or greater.
+
+That being said, Bootstrap 4 probably works just fine! You must use `4.0.0-alpha.6` or greater.
 
 ## NEWS
 2016-10-30: Released 1.3.0. Supports multiple config files in one build.
@@ -69,9 +69,9 @@ Don't forget to install these dependencies (use `--save or --save-dev` option pe
 npm install --save-dev bootstrap-sass
 
 # or Bootstrap 4
-npm install --save-dev bootstrap@v4.0.0-alpha.4
+npm install --save-dev bootstrap@v4.0.0-alpha.6
 
-# Note, alpha.3 is broken, and alpha.2 is no longer supported
+# Note, alpha.6 contains changes that are incompatible with alpha.5 and before, alpha.3 is broken, and alpha.2 is no longer supported
 
 # Node SASS & other loaders needed to handle styles
 npm install --save-dev css-loader node-sass resolve-url-loader sass-loader style-loader url-loader
